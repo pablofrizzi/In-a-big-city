@@ -33,23 +33,18 @@
 }
 
 .top_container {
+  padding-bottom: 45px;
 }
 
-.top_img {
-}
-
-.top_img > img {
+#top_img {
   width: 555px;
   margin-top: 20px;
 }
 
-.top_title {
+#top_title {
   position: relative;
-  top: -728px;
-  left: 146px;
-}
-
-.top_title > h1 {
+  top: -46px;
+  left: -438px;
   font-family: "Francois One", sans-serif;
   font-size: 25px;
   background: #F3CF01;
@@ -57,12 +52,13 @@
   padding: 12px 30px 12px 314px;
   margin: 0;
   z-index: 1;
+  width: 255px;
 }
 
 .top_text {
   display: inline-block;
   width: 367px;
-  margin-top: 104px;
+  margin-top: 46px;
   padding-left: 28px;
 }
 
@@ -115,21 +111,18 @@
   width: 990px;
 }
 
-.middle_text {
-  position: relative;
-  top: -75px;
-  left: -45px;
-}
-
-.middle_text > h2 {
+#middle_text {
   background: black;
   color: #FFFFFF;
   font-family: "Francois One", sans-serif;
   font-size: 20px;
-  display: inline-block;
   padding: 15px 18px 20px 241px;
   margin: 0;
   text-align: right;
+  position: relative;
+  top: -75px;
+  left: -45px;
+  width: 528px;
 }
 
 /*Footer Top Start*/
@@ -163,7 +156,7 @@
   display: inline-block;
   width: 487px;
   border-right: 2px solid black;
-  padding: 0px 20px 0px 20px;
+  padding: 0px 65px 0px 20px;
 }
 
 .author_text > h2 {
@@ -181,21 +174,19 @@
   padding-bottom: 10px;
 }
 
-.number {
+#appreciation_counter {
   display: inline-block;
-  margin-left: 55px;
-}
-
-.number > h1 {
-  font-family: "Francois One", sans-serif;
-  font-size: 76px;
-  margin: 0;
-}
-
-.number > h2 {
+  margin-left: 75px;
+  text-transform: uppercase;
   font-family: "Francois One", sans-serif;
   font-size: 17px;
-  margin: 0;
+}
+
+#appreciation_counter > span {
+  font-family: "Francois One", sans-serif;
+  font-weight: bold;
+  font-size: 76px;
+  line-height: 1.3em;
 }
 
 /*Footer Bottom Start*/
@@ -230,7 +221,4 @@
   font-family: "Francois One", sans-serif;
   font-size: 12px;
   color: black;
-}
-
-.bottom_menu > ul > li > a:hover {
 }
