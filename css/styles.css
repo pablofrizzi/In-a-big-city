@@ -181,6 +181,7 @@
   text-transform: uppercase;
   font-family: "Francois One", sans-serif;
   font-size: 17px;
+  text-align: center;
 }
 
 #appreciation_counter > span {
@@ -222,4 +223,13 @@
   font-family: "Francois One", sans-serif;
   font-size: 12px;
   color: black;
+}
+
+#btn {
+  text-decoration: none;
+  font-family: "Francois One", sans-serif;
+  font-size: 12px;
+  color: black;
+  border: none;
+  background: none;
 }
