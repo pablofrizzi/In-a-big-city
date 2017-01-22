@@ -4,8 +4,8 @@ var currCount = parseInt($number,10);
 
 
 var appCount = function() {
-  var  newCount = currCount + 1;
-  document.getElementById('number').innerHTML = newCount;
+  currCount += 1;
+  document.getElementById('number').textContent = currCount;
 }
 
 $btn.addEventListener('click', appCount);
