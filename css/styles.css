@@ -223,6 +223,7 @@
   background: #EBE9EC;
   padding: 7px 70px;
   margin-right: 35px;
+  transition: background-color 0.3s linear;
 }
 
 .bottom_menu > ul > li > a {
