@@ -218,6 +218,13 @@
   margin-right: 35px;
 }
 
+.bottom_menu > ul > li.clicked {
+  display: inline-block;
+  background: #EBE9EC;
+  padding: 7px 70px;
+  margin-right: 35px;
+}
+
 .bottom_menu > ul > li > a {
   text-decoration: none;
   font-family: "Francois One", sans-serif;
